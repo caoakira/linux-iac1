@@ -27,7 +27,7 @@ useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt senha123) -G GRP_SEC
 useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt senha123) -G GRP_SEC
 useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt senha123) -G GRP_SEC
 
-echo "Especiicando permissôes nos diretórios..."
+echo "Especificando permissões nos diretórios..."
 
 chown root:GRP_ADM /adm
 chown root:GRP_VEN /ven
